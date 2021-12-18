@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.main-wrapper p{
+  font-size: 20px;
+}
+.my_pic{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+.self-introduction{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  background:linear-gradient(-135deg, #72c9e4, #9941D8)fixed;
+  background-size: cover;
+  background-repeat: repeat;
+}
+.name{
+  margin-bottom: 30px;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  padding: 15px 0px;
+  margin-bottom: 40px;
+}
+
+main h1 {
+  font-size: 60px;
+  display:flexbox;
+  font-family: 'Corben', cursive;
+  margin-bottom: 20px;
+}
+
+main h3{
+  font-size: 70px;
+  display: flexbox;
+  font-family: 'Corben', cursive;
+}
+main h2{
+  font-family: 'Cherry Swash',cursive;
+  font-size: 30px;
+  color:brown
+}
+.contents{
+  margin-bottom: 50px;
+  float: left;
+  margin-left: 25%;
+}
+.contents:hover{
+  color: blue;
+  transform:scale(1.1,1.1);
+  transition:1s all;
+  background-color: whitesmoke;
+}
+.contents img{
+  /*text-align: center;*/
+  width: 300px;
+  height: 300px;
+  /*margin:25%;*/
+  display: block;
+  
+}
+.contents h4{
+  position: relative;
+}
+.barth{
+  width: 10%;
+  border-radius: 5px;
+}
+.game{
+  width: 10%;
+  border-radius: 5px;
+}
+
+.animal{
+  width: 10%;
+  border-radius: 5px;
+}
+.artist{
+  width: 10%;
+  border-radius: 5px;
+}
+.question{
+  margin-bottom: 50px;
+}
+.tennis{
+  border-radius: 5px;
+}
+.omu{
+  border-radius: 5px;
+}
+@media screen and(max-width:480px){
+  
+}
